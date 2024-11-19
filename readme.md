@@ -6,6 +6,6 @@
 2. Course plan.
 3. Learning and ChatGPT.
 
-4. Functional testing
-5. Git and Github
+4. Functional testing, Regression testing
+5. Git and Github, Git demonstration
 6. FE testing.

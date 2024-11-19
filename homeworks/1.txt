@@ -1,1 +1,7 @@
-https://todolist.james.am/#/
+There is Todo management application in https://todolist.james.am/
+it allows you to create, filter, complete todos.
+
+The tasks is pretty simple, find all the bugs that are in the application.
+Be picky.
+
+The homework should be in a .txt file
