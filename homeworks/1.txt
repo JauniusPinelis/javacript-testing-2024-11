@@ -5,3 +5,5 @@ The tasks is pretty simple, find all the bugs that are in the application.
 Be picky.
 
 The homework should be in a .txt file
+Please create a new git repository for this homework in Github
+and push this file into Github repo.
