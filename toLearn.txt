@@ -1,0 +1,29 @@
+Quality Assurance engineer
+
+Soft skills: 
+1. Excellent understanding of English.
+2. A ‘can do’ attitude. Analytical thinking and diligence.
+
+Technical skills:
+1.  testing experience using desktop computers and mobile devices.
+Excellent knowledge of using PC’s, Android, and iOS devices.
+Develop and maintain test cases, test plans, and test scripts based on product requirements and specifications. 
+Identify, document, and track bugs using our bug tracking system. 
+
+2. Ability to work in a team and independently.
+
+3. Knowledge of testing methodologies, processes, tools, and procedures.
+Experience working in an Agile environment.
+
+4. Understanding the systems.
+Understanding HTTP(S), JSON (REST API).
+Knowledge of API testing and tools such as Postman/Swagger.
+
+5. Basic SQL knowledge.
+
+6. 
+Knowledge of programming basics.
+Experience working with test automation tools (Cypress).
+Basic knowledge of automated tools or frameworks (like Selenium, Playwright, Cypress). 
+
+
