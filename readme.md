@@ -19,3 +19,4 @@
 ## Day 3
 
 1. Test plan, why are they needed.
+2. Finish Git
