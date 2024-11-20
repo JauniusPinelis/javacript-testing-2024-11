@@ -15,3 +15,7 @@
 1. Software development methodologies: Waterfall, Agile.
 2. GIT branch, pull-request, conflicts -> teamwork with GIT.
 3. Manual tests, functionalities and test cases.
+
+## Day 3
+
+1. Test plan, why are they needed.
