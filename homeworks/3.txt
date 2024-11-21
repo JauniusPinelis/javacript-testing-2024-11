@@ -1,0 +1,7 @@
+https://jsonplaceholder.typicode.com/
+
+IN the lecture you have been shown how to create a postman collection
+and fill it with /todo actions: Create, Get by id, Get all, Delete
+
+Your homework would be to implement the same collection, but for a different resource:
+/posts
