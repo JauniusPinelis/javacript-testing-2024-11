@@ -15,3 +15,11 @@
 1. Software development methodologies: Waterfall, Agile.
 2. GIT branch, pull-request, conflicts -> teamwork with GIT.
 3. Manual tests, functionalities and test cases.
+
+## Day 3
+
+1. FE vs BE
+2. System integrations
+3. REST api
+4. Postman.
+
