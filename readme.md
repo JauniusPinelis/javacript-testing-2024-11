@@ -23,3 +23,12 @@
 3. REST api
 4. Postman.
 
+### Week 2
+
+## Day 1
+
+1. Understanding Api's
+2. Api Documentation.
+3. Http status codes, REST
+4. Https
+
