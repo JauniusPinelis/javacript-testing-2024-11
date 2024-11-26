@@ -32,3 +32,9 @@
 3. Http status codes, REST
 4. Https
 
+## Day 2
+
+1. White box testing vs Blackbox testing.
+2. Exploratory testing.
+3. Test plan.
+4. Test Case management systems -> Testomat.
