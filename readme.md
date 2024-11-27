@@ -38,3 +38,9 @@
 2. Exploratory testing.
 3. Test plan.
 4. Test Case management systems -> Testomat.
+
+## Day 3
+1. Test/DEV vs QA vs production environments.
+2. Smoke testing.
+3. Code (Express api) generation with chatgpt.
+4. White box testing for Api.
