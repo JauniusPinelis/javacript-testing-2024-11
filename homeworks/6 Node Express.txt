@@ -3,3 +3,6 @@ The aim of the homework is to have basic understanding of Express Node.js applic
 1. You should learn how to install and run a node application
 2. Create a successfull request to /todos endpoint with Postman.
 3. Try to understand as much code as possible in index.js
+
+the code is here
+https://github.com/JauniusPinelis/javacript-testing-2024-11/blob/main/samples/express-api-demo/index.js
