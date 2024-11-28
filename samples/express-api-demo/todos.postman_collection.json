@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "44f2093f-12a5-4356-b2c7-8ea4352e8c6e",
+		"name": "Todos collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7556965"
+	},
+	"item": [
+		{
+			"name": "Create todo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Parse the response\r",
+							"pm.test(\"Response is an array\", function () {\r",
+							"    const jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.be.an('array');\r",
+							"});\r",
+							"\r",
+							"// Validate status code\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Check each object in the array\r",
+							"pm.test(\"All objects have valid fields\", function () {\r",
+							"    const jsonData = pm.response.json();\r",
+							"    jsonData.forEach(item => {\r",
+							"        pm.expect(item).to.have.property(\"id\").that.is.a(\"number\");\r",
+							"        pm.expect(item).to.have.property(\"title\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"description\").that.is.a(\"string\");\r",
+							"        pm.expect(item).to.have.property(\"completed\").that.is.a(\"boolean\");\r",
+							"    });\r",
+							"});\r",
+							"\r",
+							"// Check specific field values (optional)\r",
+							"pm.test(\"All titles are 'hello'\", function () {\r",
+							"    const jsonData = pm.response.json();\r",
+							"    jsonData.forEach(item => {\r",
+							"        pm.expect(item.title).to.eql(\"hello\");\r",
+							"    });\r",
+							"});\r",
+							"\r",
+							"// Verify number of items in the response\r",
+							"pm.test(\"Response contains two items\", function () {\r",
+							"    const jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.length).to.eql(2);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"hello\",\r\n    \"description\": \"hello description\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/todos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
