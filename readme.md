@@ -44,3 +44,8 @@
 2. Smoke testing.
 3. Code (Express api) generation with chatgpt.
 4. White box testing for Api.
+
+## Day 4
+
+1. Postman and Express.js practice
+2. Postman Scripts
