@@ -1,0 +1,14 @@
+
+Please generate some node.js express application with chatgpt.
+Prompt tips:
+1. Keep data in memory.
+2. Keep code in a single file.
+3. Keep the application code very simple.
+
+Try creating something similar to this:
+Create a user management api which would allow to register users, get password
+and login.
+
+Create a postmancollection for this:
+1. Create folders for split the requests into functionalities.
+2. Try and play with PostBot to automatically generate tests.

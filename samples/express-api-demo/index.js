@@ -33,7 +33,8 @@ app.get("/todos/:id", (req, res) => {
 // Create a new Todo
 app.post("/todos", (req, res) => {
   const { title, description } = req.body;
-  if (!title || !description) {
+
+  if (title == undefined || description == undefined) {
     return res.status(400).json({ error: "Title and description are required" });
   }
   const newTodo = { id: nextId++, title, description, completed: false };
@@ -45,9 +46,10 @@ app.post("/todos", (req, res) => {
 app.put("/todos/:id", (req, res) => {
   const id = parseInt(req.params.id, 10);
   const { title, description, completed } = req.body;
-  const todo = todos.find((t) => t.id === id);
 
-  if (!todo) {
+  const todo = todos.find((jaunius) => jaunius.id === id);
+
+  if (todo == undefined) {
     return res.status(404).json({ error: "Todo not found" });
   }
 
