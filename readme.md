@@ -49,3 +49,15 @@
 
 1. Postman and Express.js practice
 2. Postman Scripts
+
+### Week 3
+
+## Day 1
+
+1. Javascript and Postman script recap.
+
+## Day 2
+
+1. Variables in Postman
+2. Rerunnable tests in Postman.
+3. Pre-scripts

@@ -1,0 +1,8 @@
+In homework 8, you have written requests to cover your express api.
+
+Update your postman collection to include:
+1. Pre-request scripts.
+2. Collection Variables.
+
+Please review your scripts, use the technique above to improve the tests.
+Tests should be rerunnnable.
