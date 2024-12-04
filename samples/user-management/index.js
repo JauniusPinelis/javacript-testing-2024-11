@@ -13,7 +13,7 @@ const users = {};
 // Utility function for generating unique IDs (basic)
 const generateId = () => Math.random().toString(36).substr(2, 9);
 
-// Register a new user
+// Register a new user (Create)
 app.post("/register", (req, res) => {
     const { username, password } = req.body;
 
@@ -30,7 +30,7 @@ app.post("/register", (req, res) => {
     res.status(201).json({ message: "User registered successfully.", id });
 });
 
-// Get password for a user (for demo purposes, not recommended in production)
+// Get user details by username (Read)
 app.get("/user/:username", (req, res) => {
     const { username } = req.params;
 
@@ -38,7 +38,43 @@ app.get("/user/:username", (req, res) => {
         return res.status(404).json({ error: "User not found." });
     }
 
-    res.json({ username, password: users[username].password });
+    const { id, password } = users[username];
+    res.json({ username, id, password });
+});
+
+// Get all users (Read all users)
+app.get("/users", (req, res) => {
+    const userList = Object.entries(users).map(([username, { id }]) => ({ username, id }));
+    res.json(userList);
+});
+
+// Update user details (Update)
+app.put("/user/:username", (req, res) => {
+    const { username } = req.params;
+    const { password } = req.body;
+
+    if (!users[username]) {
+        return res.status(404).json({ error: "User not found." });
+    }
+
+    if (!password) {
+        return res.status(400).json({ error: "Password is required to update user details." });
+    }
+
+    users[username].password = password;
+    res.json({ message: "User updated successfully." });
+});
+
+// Delete a user (Delete)
+app.delete("/user/:username", (req, res) => {
+    const { username } = req.params;
+
+    if (!users[username]) {
+        return res.status(404).json({ error: "User not found." });
+    }
+
+    delete users[username];
+    res.json({ message: "User deleted successfully." });
 });
 
 // Login with username and password
