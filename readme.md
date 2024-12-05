@@ -61,3 +61,13 @@
 1. Variables in Postman
 2. Rerunnable tests in Postman.
 3. Pre-scripts
+
+## Day 3
+
+1. Practice with Postman scenario testing
+
+## Day 4
+
+1. Practice with Postman scenario testing
+1. Intro to SQL and Databases.
+

@@ -1,0 +1,4 @@
+Extend your previous homework:
+
+1. Ask CHATGPT to add 'user CRUD' to your application.
+2. Perform Scenario testing on Create, Update, Delete.
