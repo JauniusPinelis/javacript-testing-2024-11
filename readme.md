@@ -71,3 +71,10 @@
 1. Practice with Postman scenario testing
 1. Intro to SQL and Databases.
 
+
+### Week 4
+
+## Day 1
+
+1. SCRUM
+1. Intro to SQL

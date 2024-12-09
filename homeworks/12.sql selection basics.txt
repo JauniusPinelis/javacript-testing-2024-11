@@ -1,0 +1,12 @@
+Restore the database from https://neon.tech/postgresql/postgresql-getting-started/postgresql-sample-database
+and write the following queries:
+1. Find all movies that are in French.
+2. Find all rentals that have been rented by customers in Afganistan.
+3. Find 3 most expensive rentals.
+
+If you have time, explore SELECT, WHERE, JOIN, GROUP BY.
+
+Advanced(hard and optional):
+1. Find the actors who acts in the latest movie.
+2. Find the movies who have been rented the most.
+3. Find the movies which have earned the most money.
