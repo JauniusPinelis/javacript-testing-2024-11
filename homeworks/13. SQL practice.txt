@@ -1,0 +1,39 @@
+-- 1.Find all movies that are in english.
+select * from film
+join language on film.language_id = language.language_id
+where language.name = 'English'
+
+-- 2. Find all rentals that have been rented by customers in Afganistan.
+
+select rental.* from country
+join city on city.country_id= country.country_id
+join address on address.city_id = city.city_id
+join customer on customer.address_id = address.address_id
+join rental on rental.customer_id = customer.customer_id
+where country = 'Afghanistan'
+
+
+-- 3. Find 3 most expensive rentals.
+
+select rental.* from payment
+join rental on payment.rental_id = rental.rental_id
+order by amount desc
+limit 3
+
+-- 2. Find the movies who have been rented the most.
+
+select * from  order by film_id
+
+select film.title, inventory.film_id, count(inventory.film_id) as film_count from rental
+join inventory on inventory.inventory_id = rental.inventory_id
+join film on film.film_id = inventory.film_id
+group by film.title, inventory.film_id
+order by film_count desc
+
+
+We have learnt about joins and order by (and lil bit about group by).
+Write the following queries.
+1. Get all action films
+2. Get top 3 cheapest action films 
+3. Find the names (forename and surname) of customer that have been served by Jon Stephens (Staff).
+4. Find the movies which have earned the most money. (order by the sum earned.), top 10.

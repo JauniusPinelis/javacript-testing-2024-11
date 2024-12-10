@@ -78,3 +78,8 @@
 
 1. SCRUM
 1. Intro to SQL
+
+## Day 2
+
+1. Databases
+1. SQL joins
