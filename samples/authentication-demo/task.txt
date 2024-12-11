@@ -1,0 +1,23 @@
+You have an autogenerate application by AI that needs to be tested.
+
+Manual testing
+
+0. You are able to successfully run and call /register endpoint with Postman.
+
+{
+    "surname": "pinelis",
+    "email": "jauniuspinelis@gmail.com",
+    "title": "mr",
+    "password": "hello"
+}
+
+1. After registering user i want to check that data persists in the database.
+2. Go to the database and check that created_at is correct.
+3. Test The /login endpoint works with new account.
+4. Test /update functionality (Update user email and title)
+5. Go to database and ensure updated_at has been modified.
+6. Test that after restarting application, the data is not lost.
+
+Advanced and optional:
+
+Write Postman collection where you perform these checks.

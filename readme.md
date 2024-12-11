@@ -83,3 +83,8 @@
 
 1. Databases
 1. SQL joins
+
+## Day 3
+
+1. SQL in Javascript
+2. SQL expanded: Indexes.
