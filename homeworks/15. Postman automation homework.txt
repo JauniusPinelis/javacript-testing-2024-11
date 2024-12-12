@@ -1,0 +1,13 @@
+You have an application which allows you to register, login, and update user information:
+
+1. Please covert all functionality with Postman requests and tests.
+2. The tests should be runnable as a collection and they should be rerunnable.
+3. The quality of tests matter:
+You should be able to check if you can register account with specified email and passwords, 
+and for that email the login should work. Think also in terms of scenarios.
+
+This would be an portfolio project, so be detailed with this and spend some time.
+Please create a separate github repo for this homework:
+1. Create Github repo for this.
+2. Copy the code from my repo into yours.
+3. Export Postman collection to this.

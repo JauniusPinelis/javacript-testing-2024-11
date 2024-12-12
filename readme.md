@@ -87,4 +87,10 @@
 ## Day 3
 
 1. SQL in Javascript
-2. SQL expanded: Indexes.
+2. Intro to security
+
+## Day 4
+
+1. Citybee data leak.
+2. api-key vs JWT. (authentication)
+
