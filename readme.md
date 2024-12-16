@@ -94,3 +94,9 @@
 1. Citybee data leak.
 2. api-key vs JWT. (authentication)
 
+### Week 5
+
+1. FE automated test with Cypress.
+2. Cypress install
+3. First test with cypress.
+

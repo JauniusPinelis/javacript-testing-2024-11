@@ -30,7 +30,7 @@ app.get("/todos/:id", (req, res) => {
   res.json(todo);
 });
 
-// Create a new Todo
+// Create a new authentication
 app.post("/todos", (req, res) => {
   const { title, description } = req.body;
 
