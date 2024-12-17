@@ -96,7 +96,14 @@
 
 ### Week 5
 
+## Day 1
+
 1. FE automated test with Cypress.
 2. Cypress install
 3. First test with cypress.
 
+## Day 2
+
+1. E2E tests vs integration tests.
+2. Get vs contains in cypress.
+3. Actions in cypress: type and click.

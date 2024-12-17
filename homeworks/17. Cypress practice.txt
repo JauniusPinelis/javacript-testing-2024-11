@@ -1,0 +1,5 @@
+We have several tests cases listed in https://www.automationexercise.com/test_cases
+
+Try doing 3 of them.
+Try doing Test case 12 and 13.
+Choose the other you think you can do.
