@@ -1,0 +1,4 @@
+Extend your previous homework with:
+1. Complete test case 1 and test case 2 from https://www.automationexercise.com/test_cases
+2. Use beforeEach in your code.
+3. Add a script which launches cypress (to package.json)

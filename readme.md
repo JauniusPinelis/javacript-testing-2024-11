@@ -107,3 +107,10 @@
 1. E2E tests vs integration tests.
 2. Get vs contains in cypress.
 3. Actions in cypress: type and click.
+
+## Day 3
+
+1. Intro to CI/CD
+2. Virtual machines
+3. BeforeEach
+4. Readme.md

@@ -3,7 +3,7 @@ describe('Contact us functionality', () => {
     cy.visit('https://www.automationexercise.com/');
 
     // Click on contacts us button.
-    cy.contains(" Contact us").click()
+    cy.contains("div"," Contact us").click()
 
     // we get redirected to a new page.
 
@@ -24,38 +24,40 @@ describe('Contact us functionality', () => {
   })
 })
 
-// describe('Testing functionality 1', () => {
-//   it('loads the header 1', () => {
-//     cy.visit('https://jsonplaceholder.typicode.com/')
-//     cy.contains('span', "{JSON} Placeholder").should('be.visible')
-//   })
+describe('Testing functionality 1', () => {
+  beforeEach(() => {
+    // runs before each test in the block
+    cy.visit('https://jsonplaceholder.typicode.com/')
+  })
+  it('loads the header 1', () => {
+    cy.contains('span', "{JSON} Placeholder").should('be.visible')
+  })
 
-//   it('loads the ad 2', () => {
-//     cy.visit('https://jsonplaceholder.typicode.com/')
-//     cy.contains('a', "Check my new project").should('be.visible')
-//   })
+  it('loads the ad 2', () => {
+    cy.contains('a', "Check my new project").should('be.visible')
+  })
 
-//   it('loads the ad 3', () => {
-//     cy.visit('https://jsonplaceholder.typicode.com/')
-//     cy.contains('a', "Check my new project").should('be.visible')
-//   })
-// })
+  it('loads the ad 3', () => {
+    cy.contains('a', "Check my new project").should('be.visible')
+  })
+})
 
-// describe('Testing functionality 2', () => {
-//   describe("Inner functionality 4", () => {
-//     it('loads the header 1', () => {
-//       cy.visit('https://jsonplaceholder.typicode.com/')
-//       cy.contains('span', "{JSON} Placeholder").should('be.visible')
-//     })
-//   })
+describe('Testing functionality 2', () => {
+  beforeEach(() => {
+    // runs before each test in the block
+    cy.visit('https://jsonplaceholder.typicode.com/')
+  })
+  describe("Inner functionality 4", () => {
+    it('loads the header 1', () => {
+      cy.contains('span', "{JSON} Placeholder").should('be.visible')
+    })
+  })
  
-//   it('loads the ad 2', () => {
-//     cy.visit('https://jsonplaceholder.typicode.com/')
-//     cy.contains('a', "Check my new project").should('be.visible')
-//   })
+  it('loads the ad 2', () => {
+    cy.contains('a', "Check my new project").should('be.visible')
+  })
 
-//   it('loads the ad 3', () => {
-//     cy.visit('https://jsonplaceholder.typicode.com/')
-//     cy.contains('a', "Check my new project").should('be.visible')
-//   })
-// })
+  it('loads the ad 3', () => {
+    cy.contains('a', "Check my new project").should('be.visible')
+  })
+})
