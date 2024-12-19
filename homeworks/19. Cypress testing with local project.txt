@@ -1,0 +1,16 @@
+In this homework you will practice generating a tic-tac-toe game with React (chatgpt)
+and covering it with cypress tests.
+
+1. Create a new git repo for this project.
+2. Setup a Vite React project in it.
+3. Generate a tic-tac-toe application for it:
+Mention that you want the code in a single file.
+Ask it to be for 2 players, makes it easier to practice.
+4. Initialise cypress in your project.
+5. Cover all the functionality in Tic-Tac-Toe with automated cypress tests.
+6. Push everything to the repo and write the readme.md for this.
+This will be your portfolio project.
+
+Advanced, optional.
+Ask ChatGPT to allow playing both 2player or (vs AI) mode
+Cover all new functionality with cypress tests.

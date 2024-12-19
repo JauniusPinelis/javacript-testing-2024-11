@@ -114,3 +114,8 @@
 2. Virtual machines
 3. BeforeEach
 4. Readme.md
+
+## Day 4
+
+1. Single page apps (spa). Website vs web applications.
+2. React
