@@ -48,25 +48,40 @@ const App = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center', fontFamily: 'Arial, sans-serif' }}>
-      <h1>Tic Tac Toe</h1>
-      {winner ? <h2>Winner: {winner}</h2> : <h2>Next Player: {isXNext ? 'X' : 'O'}</h2>}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 100px)', gap: '5px', justifyContent: 'center' }}>
+    <div style={{ textAlign: 'center', fontFamily: 'Arial, sans-serif' }} className="tic-tac-toe">
+      <h1 className="game-title">Tic Tac Toe</h1>
+      {winner ? (
+        <h2 className="game-winner" data-testid="winner">Winner: {winner}</h2>
+      ) : (
+        <h2 className="game-next-player" data-testid="next-player">Next Player: {isXNext ? 'X' : 'O'}</h2>
+      )}
+      <div
+        className="game-board"
+        style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 100px)', gap: '5px', justifyContent: 'center' }}
+      >
         {board.map((value, index) => (
           <button
             key={index}
             onClick={() => handleClick(index)}
+            className="board-cell"
+            data-testid={`cell-${index}`}
             style={{ width: '100px', height: '100px', fontSize: '24px' }}
           >
             {value}
           </button>
         ))}
       </div>
-      <button onClick={resetGame} style={{ marginTop: '20px', padding: '10px 20px', fontSize: '16px' }}>
+      <button
+        onClick={resetGame}
+        className="game-restart"
+        data-testid="restart-button"
+        style={{ marginTop: '20px', padding: '10px 20px', fontSize: '16px' }}
+      >
         Restart Game
       </button>
     </div>
   );
 };
+
 
 export default App
