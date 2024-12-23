@@ -119,3 +119,11 @@
 
 1. Single page apps (spa). Website vs web applications.
 2. React
+
+### Week 6
+
+## Day 1
+
+1. Cypress commands
+2. Scripts
+3. Github actions pipelines
