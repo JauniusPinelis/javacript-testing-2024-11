@@ -127,3 +127,11 @@
 1. Cypress commands
 2. Scripts
 3. Github actions pipelines
+
+### Week 7
+
+## Day 1
+
+0. Performance testing
+1. Integration tests
+2. Unit tests
