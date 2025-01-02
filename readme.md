@@ -135,3 +135,7 @@
 0. Performance testing
 1. Integration tests
 2. Unit tests
+
+## Day 2
+
+
