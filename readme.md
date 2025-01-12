@@ -138,4 +138,7 @@
 
 ## Day 2
 
-
+0. Mobile application testing.
+1. Website vs web app vs mobile app.
+2. Responsive design.
+3. PWA vs android vs iphone vs desktop.

@@ -1,0 +1,22 @@
+In the previous exercise you have covered 
+https://sweetshop.netlify.app/ with functional tests
+The aim of that exercise was to showcase ability to:
+1. Analyse the web app.
+2. Write test cases.
+3. Move them to Jira and be able to track the progress.
+4. Automate them using the cypress.
+5. Setup Github repo with pipelines.
+
+For the next homework the goal is very similar:
+Please cover Bank app with functional e2e tests:
+https://www.globalsqa.com/angularJs-protractor/BankingProject/
+
+The details:
+0. Please try using PLAYWRIGHT framework instead of cypress:
+https://playwright.dev/
+1. No need for Test Cases and Jira, this task is to recognise the test case and cover them using Playwright.
+2. This is a portfolio project, so please setup public Github repo with readme and etc.
+3. Try using Code generator, but the technology is defo not perfect, you will need to modify manually.
+https://playwright.dev/docs/codegen
+3. Once all tests are setup, please set up parallelism to run multiple tests at the same time:
+https://playwright.dev/docs/test-parallel
